@@ -13,7 +13,7 @@ namespace Tests
             Imposto imposto = new Imposto();
             double result = imposto.calcula(orcamento);
             // valor esperado, valor obtido
-            Assert.AreEqual(10.0, result);
+            Assert.AreEqual(11.0, result);
         }
     }
 }
